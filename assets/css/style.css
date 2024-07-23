@@ -1,0 +1,171 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 56px;
+    background-color: #010101;
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    background-color: transparent !important;
+}
+
+.card-title {
+    font-weight: 700;
+}
+
+.row-icon {
+    background-color: #35bcd3;
+    color: white;
+}
+
+.custom-card {
+    background-color: #35bcd3;
+    border-color: #898989;
+    width: 100%;
+    margin: 10px;
+}
+
+.card-img-top {
+    height: 150px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.btn-vcl {
+    background-color: #35bcd3;
+}
+
+.carousel-inner img {
+    height: 550px;
+    object-fit: cover;
+}
+
+.content-box {
+    background-color: #35bcd3;
+    width: 30%;
+    padding: 20px;
+    margin: 10px;
+    box-sizing: border-box;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+p {
+    margin: 0;
+    text-align: left;
+    color: #fff;
+}
+
+section h2 {
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+section p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+.card-text {
+    font-size: 0.9rem;
+    color: #777;
+}
+
+footer {
+    background-color: #35bcd3;
+    color: #fff;
+    padding: 2rem 0;
+}
+
+footer a {
+    color: #ffffff;
+}
+
+footer a:hover {
+    color: #fff;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.company-name {
+    text-align: left;
+}
+
+.social-links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.social-links li a {
+    display: inline-block;
+    margin: 0 0.5rem;
+    font-size: 1.2rem;
+    transition: transform 0.2s ease;
+}
+
+.social-links li a:hover {
+    transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+    .content-box {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
+.custom-card {
+    background-color: #35bcd3;
+    border-color: #898989;
+    width: 100%;
+    /* Asegúrate de que las tarjetas ocupen el 100% del contenedor en dispositivos móviles */
+    margin: 10px 0;
+    /* Ajusta el margen para dispositivos móviles */
+}
+
+
+/* Media Query para pantallas más pequeñas */
+
+@media (max-width: 768px) {
+    .custom-card {
+        margin: 20px 0;
+        /* Margen superior e inferior más grande para separar las tarjetas en dispositivos móviles */
+    }
+}
+
+
+/* Media Query para tablets */
+
+@media(min-width: 768px) and (max-width: 1024px) {
+    .custom-card {
+        margin: 15px;
+        /* Margen ajustado para tablets */
+    }
+}
+
+
+/* Media Query para pantallas grandes */
+
+@media(min-width: 1025px) {
+    .custom-card {
+        margin: 10px;
+        /* Margen estándar para pantallas grandes */
+    }
+}
